@@ -31,7 +31,7 @@ let d = a + " bought " + b + " items for $" + c + ".";
 let name = "Alice";
 let items = 5; 
 let totalCost = 20;
-let perItemCost = cost/items;
+let perItemCost = totalCost/items;
 
 let totalPurchase = name + " bought " + items + " items for $" + perItemCost + "per item, with a total of $" + perItemCost + ".";
 
